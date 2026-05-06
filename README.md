@@ -12,7 +12,7 @@ ________________________________________________________________________________
 Installation
 
 1. Copy Files
-	Copy the entire folder into your web server's document root (e.g., /var/www/html/community-		network/).
+   	Copy the entire folder into your web server's document root (e.g., /var/www/html/community-network/).
 
 2. Database configuration
 	Edit `config.php`:
