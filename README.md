@@ -11,10 +11,12 @@ ________________________________________________________________________________
 
 Installation
 
-1. Copy Files
-   	Copy the entire folder into your web server's document root (e.g., /var/www/html/community-network/).
+1. Copy Files:
 
-2. Database configuration
+   Copy the entire folder into your web server's document root (e.g., /var/www/html/community-network/).
+
+3. Database configuration:
+	
 	Edit `config.php`:
 		```php
 		define('DB_HOST', 'localhost');
@@ -23,38 +25,21 @@ Installation
 		define('DB_PASS', '');         // ← password MySQL
 		```
 
-3. Run setup
+4. Run setup:
+	
 	Open your browser and navigate to: http://localhost/community-network/setup.php
+	
 	This script will create the database, tables, and the initial admin account.
 
     ⚠️ IMPORTANT: Delete setup.php immediately after installation!
    
-4. Default Admin Credentials
+5. Default Admin Credentials:
+	
 	Username: admin
+	
 	Password: Admin123!
 
     Note: Change your password immediately via the admin panel!
-________________________________________________________________________________
-________________________________________________________________________________
-Application File Structure
-
-community-network/
-├── config.php         ← DB Configuration
-├── auth.php           ← Authentication helper
-├── setup.php          ← Initial setup (DELETE AFTER USE)
-├── index.php          ← Automatic redirect
-├── login.php          ← Login page
-├── register.php       ← Registration (requires token)
-├── logout.php         ← Logout
-├── dashboard.php      ← Main interface
-├── admin.php          ← Admin panel
-└── api/
-    ├── messages.php   ← Chat API (GET/POST)
-    ├── map.php        ← Map API (GET/POST/DELETE)
-    ├── signals.php    ← WebRTC signaling API
-    ├── users.php      ← Online users list
-    ├── ping.php       ← Keep-alive / last_seen
-    └── tokens.php     ← Token management (Admin only)
 ________________________________________________________________________________
 
 Feautures
