@@ -18,14 +18,20 @@ Installation
 3. Database configuration:
 	
 	Edit `config.php`:
-		```php
-		define('DB_HOST', 'localhost');
-		define('DB_NAME', 'community_network');
-		define('DB_USER', 'root');     // ← user MySQL
-		define('DB_PASS', '');         // ← password MySQL
-		```
 
-4. Run setup:
+```php
+
+define('DB_HOST', 'localhost');
+
+define('DB_NAME', 'community_network');
+
+define('DB_USER', 'root');     // ← user MySQL
+
+define('DB_PASS', '');         // ← password MySQL
+
+```
+
+5. Run setup:
 	
 	Open your browser and navigate to: http://localhost/community-network/setup.php
 	
@@ -33,7 +39,7 @@ Installation
 
     ⚠️ IMPORTANT: Delete setup.php immediately after installation!
    
-5. Default Admin Credentials:
+6. Default Admin Credentials:
 	
 	Username: admin
 	
