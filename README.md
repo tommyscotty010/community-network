@@ -3,9 +3,13 @@ ____________________________________________________________________
 Communication platform featuring chat, interactive maps, and video calls.
 
 Requirements:
+
     • PHP 8.0+
+	
     • MySQL 5.7+ / MariaDB 10.3+
+
     • Web server (Apache/Nginx) with mod_rewrite
+	
     • Modern browser (Chrome/Firefox) for WebRTC
 ________________________________________________________________________________
 
